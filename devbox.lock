@@ -1,0 +1,181 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "dotnetCorePackages.dotnet_8.aspnetcore@latest": {
+      "last_modified": "2024-08-14T11:41:26Z",
+      "resolved": "github:NixOS/nixpkgs/0cb2fd7c59fed0cd82ef858cbcbdb552b9a33465#dotnetCorePackages.dotnet_8.aspnetcore",
+      "source": "devbox-search",
+      "version": "8.0.7",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q8vwsj1kl2ymaz1fh749zc241zdfdmpb-dotnet-aspnetcore-runtime-8.0.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/q8vwsj1kl2ymaz1fh749zc241zdfdmpb-dotnet-aspnetcore-runtime-8.0.7"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/09bl11mqdpyya4rwjvgbp3pvmnim5l27-dotnet-aspnetcore-runtime-8.0.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/09bl11mqdpyya4rwjvgbp3pvmnim5l27-dotnet-aspnetcore-runtime-8.0.7"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3kqv0v1qm24ykm4r6lp890xv1xg2d0lv-dotnet-aspnetcore-runtime-8.0.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3kqv0v1qm24ykm4r6lp890xv1xg2d0lv-dotnet-aspnetcore-runtime-8.0.7"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/74m15lxycdicq8y942kfw92hjkq91y9a-dotnet-aspnetcore-runtime-8.0.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/74m15lxycdicq8y942kfw92hjkq91y9a-dotnet-aspnetcore-runtime-8.0.7"
+        }
+      }
+    },
+    "dotnetCorePackages.dotnet_8.runtime@latest": {
+      "last_modified": "2024-08-14T11:41:26Z",
+      "resolved": "github:NixOS/nixpkgs/0cb2fd7c59fed0cd82ef858cbcbdb552b9a33465#dotnetCorePackages.dotnet_8.runtime",
+      "source": "devbox-search",
+      "version": "8.0.7",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/im5nwp9069axa191rb2s0zd5xn4k8xzq-dotnet-runtime-8.0.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/im5nwp9069axa191rb2s0zd5xn4k8xzq-dotnet-runtime-8.0.7"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mjp9ym0nkp985qfasf6b4mjirw64dvf5-dotnet-runtime-8.0.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mjp9ym0nkp985qfasf6b4mjirw64dvf5-dotnet-runtime-8.0.7"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sx34raz2xxzb8pl1pfv40pqp7kn9ri1c-dotnet-runtime-8.0.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sx34raz2xxzb8pl1pfv40pqp7kn9ri1c-dotnet-runtime-8.0.7"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1lf209s5wqmp92jbfg035b1jjhy7ny8c-dotnet-runtime-8.0.7",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1lf209s5wqmp92jbfg035b1jjhy7ny8c-dotnet-runtime-8.0.7"
+        }
+      }
+    },
+    "dotnetCorePackages.dotnet_8.sdk@latest": {
+      "last_modified": "2024-08-20T18:17:24Z",
+      "resolved": "github:NixOS/nixpkgs/d13fa5a45a34e7c8be33474f58003914430bdc5a#dotnetCorePackages.dotnet_8.sdk",
+      "source": "devbox-search",
+      "version": "8.0.107",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m8n8yp30hr3v1y8pqi943m2f62vbn23q-dotnet-sdk-8.0.107",
+              "default": true
+            },
+            {
+              "name": "packages",
+              "path": "/nix/store/gxjvp54i54nln9n7fyl2im1dpwy1f4m5-dotnet-sdk-8.0.107-packages"
+            },
+            {
+              "name": "artifacts",
+              "path": "/nix/store/8isb9gfkgiffvhvs6zq3516q1y7w2pha-dotnet-sdk-8.0.107-artifacts"
+            }
+          ],
+          "store_path": "/nix/store/m8n8yp30hr3v1y8pqi943m2f62vbn23q-dotnet-sdk-8.0.107"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nnlbn78gcdr3i33zklmq33xhfmpdpkx1-dotnet-sdk-8.0.107",
+              "default": true
+            },
+            {
+              "name": "packages",
+              "path": "/nix/store/0zk7bb73kccsrcggp2vq614c4wa1108h-dotnet-sdk-8.0.107-packages"
+            },
+            {
+              "name": "artifacts",
+              "path": "/nix/store/ms02l07nb5wapniqdy95rdmzx3x6zm01-dotnet-sdk-8.0.107-artifacts"
+            }
+          ],
+          "store_path": "/nix/store/nnlbn78gcdr3i33zklmq33xhfmpdpkx1-dotnet-sdk-8.0.107"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/as2ibsfc95vysngpzzm724ad45igmh0i-dotnet-sdk-8.0.107",
+              "default": true
+            },
+            {
+              "name": "artifacts",
+              "path": "/nix/store/pxamzbsnz6jqj3ifwx1paq5ylrfzps83-dotnet-sdk-8.0.107-artifacts"
+            },
+            {
+              "name": "packages",
+              "path": "/nix/store/1brvxysbgv19b0rhlzya8x60n3rn24vy-dotnet-sdk-8.0.107-packages"
+            }
+          ],
+          "store_path": "/nix/store/as2ibsfc95vysngpzzm724ad45igmh0i-dotnet-sdk-8.0.107"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0cgnfwkddzsvls6qy858bsik5j8d9fy5-dotnet-sdk-8.0.107",
+              "default": true
+            },
+            {
+              "name": "artifacts",
+              "path": "/nix/store/va9661753qknvizjybaypc4fmhy1l3g7-dotnet-sdk-8.0.107-artifacts"
+            },
+            {
+              "name": "packages",
+              "path": "/nix/store/8ay55gz3ppqpkb1mwac2vscr0ggglb7m-dotnet-sdk-8.0.107-packages"
+            }
+          ],
+          "store_path": "/nix/store/0cgnfwkddzsvls6qy858bsik5j8d9fy5-dotnet-sdk-8.0.107"
+        }
+      }
+    }
+  }
+}
