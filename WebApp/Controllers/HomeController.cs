@@ -1,31 +1,60 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using WebApp.Models;
+using WebApp.Services;
 
 namespace WebApp.Controllers;
 
-public class HomeController : Controller
+public class HomeController(
+    BlobService blobService,
+    TableService tableService,
+    QueueService queueService,
+    FileService fileService
+) : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly BlobService _blobService = blobService;
+    private readonly TableService _tableService = tableService;
+    private readonly QueueService _queueService = queueService;
+    private readonly FileService _fileService = fileService;
 
-    public HomeController(ILogger<HomeController> logger)
+    public IActionResult Index() => View();
+
+    [HttpPost]
+    public async Task<IActionResult> UploadImage(IFormFile file)
     {
-        _logger = logger;
+        if (file != null)
+        {
+            using var stream = file.OpenReadStream();
+            await _blobService.UploadBlobAsync("product-images", file.FileName, stream);
+        }
+        return RedirectToAction("Index");
     }
 
-    public IActionResult Index()
+    [HttpPost]
+    public async Task<IActionResult> AddCustomerProfile(CustomerProfile profile)
     {
-        return View();
+        if (ModelState.IsValid)
+        {
+            await _tableService.AddEntityAsync(profile);
+        }
+        return RedirectToAction("Index");
     }
 
-    public IActionResult Privacy()
+    [HttpPost]
+    public async Task<IActionResult> ProcessOrder(string orderId)
     {
-        return View();
+        await _queueService.SendMessageAsync("order-processing", $"Processing order {orderId}");
+        return RedirectToAction("Index");
     }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    [HttpPost]
+    public async Task<IActionResult> UploadContract(IFormFile file)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        if (file != null)
+        {
+            using var stream = file.OpenReadStream();
+            await _fileService.UploadFileAsync("contracts-logs", file.FileName, stream);
+        }
+        return RedirectToAction("Index");
     }
 }
