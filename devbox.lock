@@ -98,8 +98,8 @@
       }
     },
     "dotnetCorePackages.dotnet_8.sdk@latest": {
-      "last_modified": "2024-08-20T18:17:24Z",
-      "resolved": "github:NixOS/nixpkgs/d13fa5a45a34e7c8be33474f58003914430bdc5a#dotnetCorePackages.dotnet_8.sdk",
+      "last_modified": "2024-08-21T02:49:08Z",
+      "resolved": "github:NixOS/nixpkgs/4c30668e1edb7348169407f218fa7c71a94b17f3#dotnetCorePackages.dotnet_8.sdk",
       "source": "devbox-search",
       "version": "8.0.107",
       "systems": {
@@ -111,12 +111,12 @@
               "default": true
             },
             {
-              "name": "packages",
-              "path": "/nix/store/gxjvp54i54nln9n7fyl2im1dpwy1f4m5-dotnet-sdk-8.0.107-packages"
-            },
-            {
               "name": "artifacts",
               "path": "/nix/store/8isb9gfkgiffvhvs6zq3516q1y7w2pha-dotnet-sdk-8.0.107-artifacts"
+            },
+            {
+              "name": "packages",
+              "path": "/nix/store/gxjvp54i54nln9n7fyl2im1dpwy1f4m5-dotnet-sdk-8.0.107-packages"
             }
           ],
           "store_path": "/nix/store/m8n8yp30hr3v1y8pqi943m2f62vbn23q-dotnet-sdk-8.0.107"
