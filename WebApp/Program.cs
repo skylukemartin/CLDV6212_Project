@@ -2,7 +2,7 @@ using WebApp.Services;
 
 namespace WebApp;
 
-internal class Program
+internal static class Program
 {
     private static void Main(string[] args)
     {
