@@ -1,4 +1,12 @@
-﻿@model WebApp.Models.CustomerProfile
+﻿@* Author: Sky Martin
+/// This implementation is based on the Azure SDK for .NET.
+/// For educational purposes, refer to:
+/// https://github.com/ByronMcCallLecturer/CLDV_SemesterTwo_Byron/blob/master/README.md
+/// https://learn.microsoft.com/en-us/aspnet/mvc/overview/getting-started/
+ *@
+
+
+@model WebApp.Models.CustomerProfile
 
 <form asp-action="UploadImage" method="post" enctype="multipart/form-data">
     <input type="file" name="file" />

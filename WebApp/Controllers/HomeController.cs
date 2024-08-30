@@ -1,3 +1,7 @@
+// Sky Martin
+// ST10286905
+// Group 2
+
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using WebApp.Models;
@@ -5,6 +9,13 @@ using WebApp.Services;
 
 namespace WebApp.Controllers;
 
+/// <summary>
+/// The controller for the home view, i.e. the home view model controller.
+/// <remarks>
+/// This implementation is based on the Azure SDK for .NET.
+/// For educational purposes, refer to:
+/// <seealso cref="https://raw.githubusercontent.com/ByronMcCallLecturer/CLDV_SemesterTwo_Byron/536bb18a9f23471d139d74ef1871dea83312ed11/README.md"/>
+/// </remarks>
 public class HomeController(
     BlobService blobService,
     TableService tableService,

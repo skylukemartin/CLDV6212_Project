@@ -1,8 +1,12 @@
+// Sky Martin
+// ST10286905
+/// Group 2
+
 using WebApp.Services;
 
 namespace WebApp;
 
-internal class Program
+internal static class Program
 {
     private static void Main(string[] args)
     {
