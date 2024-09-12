@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{243E30FA-66AD-42C0-98F4-486ADCE1B7E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppFuncs", "..\..\..\..\..\..\Documents\Sync\varsity\assignments\CLDV6212_Project\WebAppFuncs\WebAppFuncs.csproj", "{2104003D-0A84-401A-AE89-5BBD7D221D5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppFuncs", "WebAppFuncs\WebAppFuncs.csproj", "{2104003D-0A84-401A-AE89-5BBD7D221D5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
